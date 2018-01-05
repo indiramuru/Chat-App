@@ -1,0 +1,19 @@
+.send-message {
+  padding: 27px;
+  border-top: 1px solid #ccc;
+}
+.message-input {
+  width: 90%;
+  margin-right: 15px;
+  line-height: 25px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.send-link {
+  text-decoration: none;
+  color: #0ebfe9;
+}
+.send-link:hover {
+  cursor: pointer;
+}

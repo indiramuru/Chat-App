@@ -1,0 +1,40 @@
+.log-in-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.username{
+  width: 276px;
+  line-height: 34px;
+  display: block;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.join {
+  width: 276px;
+  line-height: 38px;
+  background-color: #ff0000;
+  display: block;
+  border-radius: 4px;
+  border-style: groove;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.join:hover {
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.parent-container {
+  padding: 28px;
+}

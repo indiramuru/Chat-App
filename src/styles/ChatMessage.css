@@ -1,0 +1,14 @@
+.message-body {
+  padding: 10px 15px;
+  max-width: 350px;
+  border-radius: 35px;
+  display: inline-block;
+  text-align: justify;
+  font-size: 14px;
+}
+.message-owner-name {
+  margin: 10px 0 15px 0;
+  color: #8c8c8c;
+  font-weight: 100;
+  font-size: small;
+}

@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  border: 1px solid #ccc;
+}
+.left {
+  min-width: 200px;
+  max-width: 200px;
+  background-color: #ff0000;
+  color: #fff;
+}
+.right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.room-user-detail {
+  padding: 30px 20px;
+}
+.minutes-online {
+  font-weight: 100;
+  font-size: x-small;
+}
+.chat-room-name {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}
+.chat-room-name:hover {
+  background-color: #7f0000;
+  cursor: pointer;
+}
+.highlight {
+  background-color: #7f0000;
+}
+.chat-room-name:last-child {
+  padding-bottom: 20px;
+}
+.header {
+  padding: 22px;
+  text-align: center;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.room-name {
+  margin-bottom: 10px;
+  color: #7a7a7a;
+  font-size: x-large;
+}
+.current-user {
+  color: #ff0000;
+}
+.after-current-user {
+  margin-right: 4px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.chat-messages {
+  padding: 10px 20px;
+  background-color: #dedede;
+  height: 500px;
+  overflow-y: auto;
+}
+.set-other-user-style {
+  background-color: #f7f7f7;
+}
+.set-user-style {
+  background-color: #ff0000;
+  color: #fff;
+  float: right;
+  margin: 10px 0;
+}
+.clear {
+  clear: right;
+  display: block;
+}
+.room-users {
+  color: #969696;
+  font-size: small;
+}
