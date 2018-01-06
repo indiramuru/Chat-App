@@ -37,6 +37,7 @@ To start the server. Start the server in separate terminal and start the applica
 * Run `npm run api-server`
 * Open different terminal and run `npm start`
 * Browser tab opens up pointing to `http://localhost:3000/`
+* Tested in Chrome and Firefox. Works fine.
 
 ##### Folder Structure #####
 
